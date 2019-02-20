@@ -461,3 +461,14 @@ body {
             ul.icons li a:hover, ul.icons li span:hover {
                     background: rgba(224, 224, 224, 0.15);
                 }
+
+
+.strokeme
+{
+    color: blue;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+}
