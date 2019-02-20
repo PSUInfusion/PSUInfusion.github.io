@@ -140,7 +140,7 @@ img{
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/aud.jpg) no-repeat bottom center scroll;
+    background: url(../img/beaver.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -258,7 +258,7 @@ img{
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    background: url(../img/aud2.jpeg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -367,3 +367,97 @@ body {
 .banner { position: relative; overflow: auto; }
 .banner li { list-style: none; }
 .banner ul li { float: left; }
+
+
+.countdown-container {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+}
+
+.clock-item .inner {
+    height: 0px;
+    padding-bottom: 100%;
+    position: relative; 
+    width: 95%;
+}
+
+.clock-canvas {
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 50%;
+    height: 0px;
+    padding-bottom: 100%;
+}
+
+.text {
+    color: #fff;    
+    font-size: 30px;
+    font-weight: bold;  
+    margin-top: -100px;
+    position: absolute;
+    top: 60%;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+    width: 100%;
+}
+
+.text .val {
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.text .type-time {
+    font-size: 20px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .clock-item {
+        margin-bottom: 30px;        
+    }
+}
+
+@media (max-width: 767px) {
+    .clock-item {
+        margin: 0px 30px 30px 30px;
+    }
+}
+
+
+/* Icons */
+
+    ul.icons {
+        cursor: default;
+    }
+
+        ul.icons li {
+            display: inline-block;
+            font-size: 1.25em;
+            line-height: 1em;
+            padding-left: 0.5em;
+        }
+
+            ul.icons li:first-child {
+                padding-left: 0;
+            }
+
+            ul.icons li a, ul.icons li span {
+                -moz-transition: background-color 0.2s ease-in-out;
+                -webkit-transition: background-color 0.2s ease-in-out;
+                -ms-transition: background-color 0.2s ease-in-out;
+                transition: background-color 0.2s ease-in-out;
+                border-radius: 100%;
+                border: solid 1px rgba(224, 224, 224, 0.75);
+                display: inline-block;
+                height: 2em;
+                line-height: 2em;
+                text-align: center;
+                width: 2em;
+            }
+
+            ul.icons li a:hover, ul.icons li span:hover {
+                    background: rgba(224, 224, 224, 0.15);
+                }
