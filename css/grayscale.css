@@ -137,10 +137,10 @@ img{
     display: table;
     width: 100%;
     height: auto;
-    padding: 100px 0;
+    padding: inherit;
     text-align: center;
     color: #fff;
-    background: url(../img/aud.jpg) no-repeat bottom center scroll;
+    background: url(../img/beaver.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -258,7 +258,7 @@ img{
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    background: url(../img/aud2.jpeg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -367,8 +367,6 @@ body {
 .banner { position: relative; overflow: auto; }
 .banner li { list-style: none; }
 .banner ul li { float: left; }
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 
 .countdown-container {
@@ -428,6 +426,58 @@ body {
     }
 }
 
+@media (max-width: 500px) {
+    .clock-item {
+        margin: 10%;
+        margin-left: 15%;
+    }
+    .countdown-container {
+        position: relative;
+        top: 0%;
+        -webkit-transform: translateY(-40%);
+        -moz-transform: translateY(-40%);
+        transform: translateY(-40%);
+    }
+
+    .clock-item .inner {
+        height: 0px;
+        padding-bottom: 100%;
+        position: relative; 
+
+        width: 100%;
+    }
+
+    .clock-canvas {
+        background-color: rgba(255, 255, 255, .1);
+        border-radius: 50%;
+        height: 0px;
+        padding-bottom: 100%;
+
+    }
+
+    .text {
+        color: #fff;    
+        font-size: 12px;
+        font-weight: bold;  
+        margin-top: 10%;
+        position: relative;
+        top: 60%;
+        text-align: center;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+        width: 100%;
+}
+
+    .text .val {
+        font-size: 25px;
+        margin-bottom: -10%;
+       
+    }
+
+    .text .type-time {
+        font-size: 12px;
+    }
+}
+
 
 /* Icons */
 
@@ -465,16 +515,3 @@ body {
                 }
 
 
-.strokeme
-{
-    color: blue;
-    text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;  
-}
-=======
->>>>>>> parent of 01c59a8... countdown timer
-=======
->>>>>>> parent of 01c59a8... countdown timer
