@@ -301,6 +301,12 @@ img{
     transition: all .3s ease-in-out;
 }
 
+@media (max-width: 500px) {
+    .btn {
+        margin-bottom: -50%;
+    }
+}
+
 .btn-default {
     border: 1px solid #219ab3;
     color: #219ab3;
