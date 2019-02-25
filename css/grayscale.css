@@ -302,9 +302,9 @@ img{
 }
 
 @media (max-width: 500px) {
-    .btn {
-        margin-bottom: -50%;
-    }
+	.btn {
+		margin-bottom: -40%;
+	}
 }
 
 .btn-default {
@@ -432,7 +432,7 @@ body {
 
 @media (max-width: 767px) {
     .clock-item {
-        margin: 0px 30px 30px 30px;
+            margin: 30px 0px 0px 0px;
     }
 }
 
@@ -526,3 +526,26 @@ body {
                 }
 
 
+.event-date{
+	margin-bottom: 25%; 
+	font-size: 24px; 
+	text-shadow: 2px 2px 2px #050358;
+}
+
+@media (max-width: 767px) {
+	.event-date{
+			margin-bottom: 10%; 
+			font-size: 24px; 
+			text-shadow: 2px 2px 2px #050358;
+   
+	}
+}
+
+@media (max-width: 500px) {
+	.event-date{
+			margin-bottom: 25%; 
+			font-size: 20px; 
+			text-shadow: 2px 2px 2px #050358;
+   
+	}
+}
