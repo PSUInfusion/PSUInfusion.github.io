@@ -303,7 +303,7 @@ img{
 
 @media (max-width: 500px) {
 	.btn {
-		margin-bottom: -40%;
+		margin-bottom: -50%;
 	}
 }
 
@@ -532,20 +532,35 @@ body {
 	text-shadow: 2px 2px 2px #050358;
 }
 
+.brand-heading-detail {
+	margin-top: 20%; 
+	font-size: 23px; 
+	text-shadow: 2px 2px 2px #050358;
+}
+
 @media (max-width: 767px) {
 	.event-date{
 			margin-bottom: 10%; 
 			font-size: 24px; 
 			text-shadow: 2px 2px 2px #050358;
-   
+	}
+	.brand-heading-detail {
+		margin-top: 10%; 
+		font-size: 20px; 
+		text-shadow: 2px 2px 2px #050358;
 	}
 }
 
 @media (max-width: 500px) {
 	.event-date{
-			margin-bottom: 19%; 
+			margin-bottom: 15%; 
 			font-size: 20px; 
 			text-shadow: 2px 2px 2px #050358;
    
+	}
+	.brand-heading-detail {
+		margin-top: 10%; 
+		font-size: 20px; 
+		text-shadow: 2px 2px 2px #050358;
 	}
 }
