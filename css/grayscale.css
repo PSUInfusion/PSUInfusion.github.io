@@ -138,6 +138,14 @@ a:focus {
 img{
   opacity: 0.4;
 }
+#beaver {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  }
+
 .intro {
     display: table;
     width: 100%;
@@ -263,7 +271,7 @@ img{
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/aud2.jpeg) no-repeat center center scroll;
+    background: url(../img/HP.png) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -321,6 +329,8 @@ img{
     background-color: #219ab3;
 }
 
+
+
 ul.banner-social-buttons {
     margin-top: 0;
 }
@@ -342,6 +352,7 @@ ul.banner-social-buttons {
         margin-bottom: 0;
     }
 }
+
 
 footer {
     padding: 50px 0;
