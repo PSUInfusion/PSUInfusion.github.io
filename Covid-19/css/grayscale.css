@@ -51,6 +51,36 @@ a {
     transition: all .2s ease-in-out;
 }
 
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #262629;
+  color: white;
+}
+
+
+
 a:hover,
 a:focus {
     text-decoration: none;
@@ -129,7 +159,7 @@ a:focus {
     .navbar-custom.top-nav-collapse {
         border-bottom: 1px solid rgba(255,255,255,.3);
     }
-}
+}*/
 img{
   opacity: 0.4;
 }
@@ -331,7 +361,7 @@ ul.banner-social-buttons {
         margin-bottom: 0;
     }
 }
-
+*/
 footer {
     padding: 50px 0;
 }
@@ -366,4 +396,4 @@ body {
 
 .banner { position: relative; overflow: auto; }
 .banner li { list-style: none; }
-.banner ul li { float: left; }
+.banner ul li { float: left; }*/
