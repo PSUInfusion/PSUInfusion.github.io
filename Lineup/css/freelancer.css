@@ -7,6 +7,12 @@
 body {
     overflow-x: hidden;
 }
+.center-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* full height */
+}
 
 p {
     font-size: 20px;
